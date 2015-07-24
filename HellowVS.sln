@@ -11,7 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HellowVS.Droid", "HellowVS.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HellowVS.iOS", "HellowVS.iOS\HellowVS.iOS.csproj", "{72990730-8650-495F-8DDB-F393244423E1}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject1", "SharedProject1\SharedProject1.shproj", "{1AC2D287-AE1F-4831-A5E8-9082DAAD66D3}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject1\SharedProject1.projitems*{9f9f51f9-f5c5-4dfb-a0b9-cf4a8527c101}*SharedItemsImports = 4
+		SharedProject1\SharedProject1.projitems*{72990730-8650-495f-8ddb-f393244423e1}*SharedItemsImports = 4
+		SharedProject1\SharedProject1.projitems*{1ac2d287-ae1f-4831-a5e8-9082daad66d3}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
 		Ad-Hoc|iPhone = Ad-Hoc|iPhone

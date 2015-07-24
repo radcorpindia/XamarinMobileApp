@@ -5,6 +5,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using ClassLibrary.Core;
 
 namespace HellowVS.Droid
 {
@@ -19,6 +20,8 @@ namespace HellowVS.Droid
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+
+            User U = new User { Name = "TEST Andriod" };
 
             // Get our button from the layout resource,
             // and attach an event to it
