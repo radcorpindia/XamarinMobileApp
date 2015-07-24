@@ -70,6 +70,12 @@
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PortableLibrary\PortableLibrary.csproj">
+      <Project>{813440f4-f31e-4cc8-84d3-4d6994220a2b}</Project>
+      <Name>PortableLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="..\SharedProject1\SharedProject1.projitems" Label="Shared" Condition="Exists('..\SharedProject1\SharedProject1.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

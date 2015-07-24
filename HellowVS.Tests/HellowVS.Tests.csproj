@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary.Core\ClassLibrary.Core.csproj">
-      <Project>{d183c49c-ba2a-470f-89b0-abaf5ef6caba}</Project>
-      <Name>ClassLibrary.Core</Name>
+    <ProjectReference Include="..\PortableLibrary\PortableLibrary.csproj">
+      <Project>{813440f4-f31e-4cc8-84d3-4d6994220a2b}</Project>
+      <Name>PortableLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
@@ -77,6 +77,7 @@
       </ItemGroup>
     </When>
   </Choose>
+  <Import Project="..\SharedProject1\SharedProject1.projitems" Label="Shared" Condition="Exists('..\SharedProject1\SharedProject1.projitems')" />
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
