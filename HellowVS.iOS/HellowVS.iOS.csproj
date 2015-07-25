@@ -32,6 +32,8 @@
     <MtouchLink>None</MtouchLink>
     <MtouchArch>i386</MtouchArch>
     <ConsolePause>false</ConsolePause>
+    <DocumentationFile>
+    </DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -82,6 +84,9 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <CodesignProvision>Automatic:AppStore</CodesignProvision>
     <CodesignKey>iPhone Distribution</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>HellowVS.iOS.Application</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
