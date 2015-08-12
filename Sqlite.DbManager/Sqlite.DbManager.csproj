@@ -5,11 +5,11 @@
     <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{813440F4-F31E-4CC8-84D3-4D6994220A2B}</ProjectGuid>
+    <ProjectGuid>{B2E42CFF-FED1-4D7C-9DAE-57CFA28CB953}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PortableLibrary</RootNamespace>
-    <AssemblyName>PortableLibrary</AssemblyName>
+    <RootNamespace>Sqlite.DbManager</RootNamespace>
+    <AssemblyName>Sqlite.DbManager</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -34,7 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Display.cs" />
+    <Compile Include="DbConnection.cs" />
+    <Compile Include="DbManagerBase.cs" />
+    <Compile Include="DbQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
