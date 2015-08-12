@@ -35,6 +35,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{BDF1D6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sqlite.DbManager", "Sqlite.DbManager\Sqlite.DbManager.csproj", "{B2E42CFF-FED1-4D7C-9DAE-57CFA28CB953}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Dump", ".Dump", "{4D150E43-351D-423B-915D-415002ABE83C}"
+	ProjectSection(SolutionItems) = preProject
+		Help.txt = Help.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SharedProject1\SharedProject1.projitems*{9f9f51f9-f5c5-4dfb-a0b9-cf4a8527c101}*SharedItemsImports = 4

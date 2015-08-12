@@ -1,0 +1,5 @@
+http://stackoverflow.com/questions/4938867/need-an-example-of-sqlite-with-monodroid
+http://developer.xamarin.com/recipes/ios/data/sqlite/create_a_database_with_sqlitenet/
+http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/case_study-tasky/
+http://stackoverflow.com/questions/13699544/using-sqlite-inside-portable-class-library
+https://marcominerva.wordpress.com/2014/02/13/the-new-portable-class-library-for-sqlite/
